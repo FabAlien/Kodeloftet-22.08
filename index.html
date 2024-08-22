@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -25,10 +25,21 @@
 
     <main>
       <section>
-      <h2>Seksjon 1</h2>
-      </section>
-      <section>
-      <h2>Seksjon 2</h2>
+        <h2>Fruktseksjon</h2>
+        <div id="fruitBowlModule">
+          <p id="fruitDisplay"></p>
+          <label for="inputFruit">
+            <input type="text" name="" id="inputFruit" placeholder="Skriv inn en frukt">
+          </label>
+
+          <div id="fruitBowlButtons">
+            <button id="fruitPush" class="buttonPositive">Legge til på slutten</button>
+            <button id="fruitPop" class="buttonNegative">Fjerne på slutten</button>
+            <button id="fruitUnshift" class="buttonPositive">Legge til på starten</button>
+            <button id="fruitShift" class="buttonNegative">Fjerne på starten</button>
+          </div>
+        </div>
+
       </section>
     </main>
 

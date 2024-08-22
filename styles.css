@@ -61,11 +61,43 @@ header {
 }
 
 main {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 section {
   margin-top: 10vh;
+}
+
+#fruitBowlModule {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  border: 2px solid black;
+}
+#fruitBowlButtons {
+  display: grid;
+  grid-template-columns: 100% 100%;
+  justify-content: center;
+  height: 20%;
+  width: 50%;
+  margin-top: 5vh;
+}
+
+#fruitDisplay {
+  margin-bottom: 10vh;
+  font-size: x-large;
+}
+
+.buttonPositive {
+  background-color: green;
+}
+
+.buttonNegative {
+  background-color: red;
 }
 
 footer {
